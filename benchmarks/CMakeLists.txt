@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 find_package(OpenVDB REQUIRED)
+find_package(Jemalloc REQUIRED)
 
 add_executable(direct_access direct_access/main.cpp)
 target_link_libraries(direct_access OpenVDB::openvdb)
@@ -16,3 +17,6 @@ target_link_libraries(iterator_range OpenVDB::openvdb)
 
 add_executable(root_query root_query/main.cpp)
 target_link_libraries(root_query OpenVDB::openvdb)
+
+add_executable(cloud_value_clamp cloud_value_clamp/main.cpp)
+target_link_libraries(cloud_value_clamp OpenVDB::openvdb Jemalloc::jemalloc)
