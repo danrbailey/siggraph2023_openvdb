@@ -1,4 +1,8 @@
-This is a set of benchmarks for use with OpenVDB as presented in the [Siggraph 2021 OpenVDB Course](https://s2021.siggraph.org/presentation/?id=gensub_281&sess=sess155).
+This is a set of benchmarks for use with OpenVDB as presented in one of these two courses:
+
+[Siggraph 2023 OpenVDB Course](https://s2023.siggraph.org/presentation/?id=gensub_180&sess=sess161)
+
+[Siggraph 2021 OpenVDB Course](https://s2021.siggraph.org/presentation/?id=gensub_281&sess=sess155)
 
 ### Quick Start
 
